@@ -1138,12 +1138,17 @@ header .container nav .form .search-icon {
 
 @media (max-width: 768px) {
     .subscribe .container {
-        flex-flow: column wrap;
+        flex-direction: column;
         align-items: center;
     }
 
     .subscribe .subscribe-box {
         margin-bottom: 30px;
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
     }
 
     .subscribe p {
