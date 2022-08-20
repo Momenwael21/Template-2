@@ -261,6 +261,7 @@ header .container .menu {
         background-color: black;
         position: absolute;
         width: 170px;
+        z-index: 2;
     }
 }
 
