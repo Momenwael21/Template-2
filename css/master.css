@@ -203,8 +203,10 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
-    position: relative;
+    background-color: #0000008c;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
 }
 
 header .container::before {
